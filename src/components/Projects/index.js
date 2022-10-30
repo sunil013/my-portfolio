@@ -74,7 +74,7 @@ const projectDetailsList = [
     id: '6',
     title: 'Food Munch',
     imageUrl:
-      'https://res.cloudinary.com/sunil013/image/upload/v1667053958/rachel-park-hrlvr2ZlUNk-unsplash_iv7ner.jpg',
+      'https://res.cloudinary.com/sunil013/image/upload/v1667133093/rachel-park-hrlvr2ZlUNk-unsplash_2_fzofaw.jpg',
     description:
       'Developed a responsive website for Food Store where users can see a list of food items, detailed information about a food item, offers.',
     techStack: 'HTML, CSS, Bootstrap',
