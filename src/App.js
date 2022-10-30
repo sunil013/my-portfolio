@@ -1,6 +1,11 @@
 import {Component} from 'react'
 // import {Routes, Route} from 'react-router-dom'
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from 'react-router-dom'
 // import {Redirect} from 'react-router-dom'
 import Home from './components/Home'
 import About from './components/About'
@@ -35,7 +40,7 @@ class App extends Component {
             <Route exact path="/contact" element={<Contact />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/technologies" element={<Technologies />} />
-            {/* <Redirect to="/" /> */}
+            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </Router>
       </PortfolioContext.Provider>

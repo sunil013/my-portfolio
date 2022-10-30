@@ -46,27 +46,31 @@ export const TechItemsContainer = styled.ul`
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 45px;
   flex-wrap: wrap;
   margin-top: 25px;
+  @media screen and (max-width: 767px) {
+    gap: 30px;
+  }
 `
 export const TechItem = styled.li`
   list-style-type: none;
   width: 120px;
-  margin-right: 50px;
+  //   margin-right: 50px;
   margin-bottom: 25px;
   @media screen and (max-width: 500px) {
     width: 80px;
-    margin-right: 10px;
+    // margin-right: 10px;
     margin-bottom: 15px;
   }
   @media screen and (max-width: 767px) {
     width: 100px;
-    margin-right: 10px;
+    // margin-right: 10px;
     margin-bottom: 20px;
   }
   @media screen and (max-width: 1000px) {
     width: 110px;
-    margin-right: 35px;
+    // margin-right: 35px;
     margin-bottom: 25px;
   }
 `
@@ -74,6 +78,6 @@ export const TechImage = styled.img`
   width: 80%;
   &:hover {
     transform: scale(1.04);
-    transition: all ease-in-out 0.3s
+    transition: all ease-in-out 0.3s;
   }
 `

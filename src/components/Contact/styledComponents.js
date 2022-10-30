@@ -94,6 +94,7 @@ export const ContactIconsContainer = styled.div`
   display: flex;
   align-items: flex-start;
   margin-top: 15px;
+  gap: 20px;
 `
 
 export const SocialIconContainer = styled.a`
@@ -109,7 +110,7 @@ export const SocialIconContainer = styled.a`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 20px;
+  //   margin-right: 20px;
   &:hover {
     // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     //   rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
