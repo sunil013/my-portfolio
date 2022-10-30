@@ -10,6 +10,10 @@ export const Navbar = styled.nav`
   padding: 0px;
   //   z-index: 99;
   //   color: #343434;
+  //   top: 0;
+  //   z-index: 100;
+  //   position: fixed;
+  //   width: 100%;
 `
 export const NavbarTopContainer = styled.div`
   width: 90%;
@@ -27,8 +31,12 @@ export const NavbarContainer = styled.div`
   width: 100%;
 `
 export const NavLogo = styled.img`
-  height: 70px;
-  width: 100px;
+  height: 60px;
+  width: 80px;
+  @media screen and (max-width: 630px) {
+    height: 50px;
+    width: 60px;
+  }
 `
 export const NavLinksContainer = styled.div`
   display: flex;

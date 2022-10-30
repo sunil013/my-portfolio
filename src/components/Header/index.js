@@ -58,7 +58,8 @@ class Header extends Component {
                 <NavbarContainer>
                   <Link to="/">
                     <NavLogo
-                      src="https://res.cloudinary.com/sunil013/image/upload/v1667062763/Photo_1667062315823_kfjqo5.png"
+                      //   src="https://res.cloudinary.com/sunil013/image/upload/v1667062763/Photo_1667062315823_kfjqo5.png"
+                      src="https://res.cloudinary.com/sunil013/image/upload/v1667062763/Photo_1667062407475_aafbe5.png"
                       alt="logo"
                     />
                   </Link>

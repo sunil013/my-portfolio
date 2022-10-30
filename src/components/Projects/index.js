@@ -28,7 +28,7 @@ const projectDetailsList = [
   },
   {
     id: '2',
-    title: 'Nxt Trendz(ECommerce)',
+    title: 'Nxt Trendz (ECommerce)',
     imageUrl:
       'https://res.cloudinary.com/sunil013/image/upload/v1666876808/4661435_2448261_dx1nhh.jpg',
     description:
