@@ -1,9 +1,11 @@
-import {AiOutlineGithub, AiOutlineTwitter} from 'react-icons/ai'
+import {AiOutlineTwitter} from 'react-icons/ai'
 import {FaLinkedinIn, FaTelegramPlane} from 'react-icons/fa'
 import {SiGmail} from 'react-icons/si'
+import {RiGithubLine} from 'react-icons/ri'
 
 import Header from '../Header'
 import PortfolioContext from '../../context/PortfolioContext'
+import './index.css'
 
 import {
   ContactSection,
@@ -24,6 +26,8 @@ const Contact = () => (
   <PortfolioContext.Consumer>
     {value => {
       const {darkTheme} = value
+      const gitHubClass = darkTheme ? 'git-dark' : 'git-light'
+      const mailClass = darkTheme ? 'mail-dark' : 'mail-light'
       return (
         <ContactSection darkTheme={darkTheme}>
           <Header />
@@ -33,7 +37,7 @@ const Contact = () => (
                 <HireMeHead darkTheme={darkTheme}>Contact Me</HireMeHead>
                 <ContactText darkTheme={darkTheme}>
                   I am available to work. Connect with me via phone:{' '}
-                  <NumberEmail>+919553901412</NumberEmail> or email:{' '}
+                  <NumberEmail>+91XXXXXXXXXX</NumberEmail> or email:{' '}
                   <NumberEmail>sunildevabathula013@gmail.com</NumberEmail>
                 </ContactText>
                 <FindMeHead darkTheme={darkTheme}>FIND ME ON</FindMeHead>
@@ -41,27 +45,31 @@ const Contact = () => (
                   <SocialIconContainer
                     href="https://github.com/sunil013"
                     target="_blank"
+                    className={gitHubClass}
                   >
-                    <AiOutlineGithub size={25} />
+                    <RiGithubLine size={25} />
                   </SocialIconContainer>
                   <SocialIconContainer
                     href="https://www.linkedin.com/in/sunil013"
                     target="_blank"
+                    className="linkedin-icon"
                   >
                     <FaLinkedinIn size={22} />
                   </SocialIconContainer>
                   <SocialIconContainer
                     href="mailto:max.sunildevabathula013@gmail.com?body=My custom mail body"
                     target="_blank"
+                    className={mailClass}
                   >
                     <SiGmail size={20} />
                   </SocialIconContainer>
-                  <SocialIconContainer>
+                  <SocialIconContainer className="twitter-icon">
                     <AiOutlineTwitter size={25} />
                   </SocialIconContainer>
                   <SocialIconContainer
                     href="https://t.me/sunild013"
                     target="_blank"
+                    className="telegram-icon"
                   >
                     <FaTelegramPlane size={22} />
                   </SocialIconContainer>

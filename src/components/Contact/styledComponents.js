@@ -98,8 +98,8 @@ export const ContactIconsContainer = styled.div`
 `
 
 export const SocialIconContainer = styled.a`
-  background-color: #cccccc;
-  color: #000000;
+  //   background-color: #cccccc;
+  //   color: #000000;
   //   color: #ffffff;
   height: 36px;
   text-decoration: none;
@@ -111,18 +111,18 @@ export const SocialIconContainer = styled.a`
   justify-content: center;
   align-items: center;
   //   margin-right: 20px;
-  &:hover {
-    // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    //   rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    //   rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    // height: 40px;
-    // width: 40px;
-    // margin-right: 16px;
-    box-shadow: 0px 0px 20px 2px #6632a8;
-    background-color: #ffffff;
-    color: #6632a8;
-    // box-shadow: 0px 20px 30px -10px #fadadd;
-  }
+  //   &:hover {
+  //     // box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+  //     //   rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+  //     //   rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  //     // height: 40px;
+  //     // width: 40px;
+  //     // margin-right: 16px;
+  //     box-shadow: 0px 0px 20px 2px #6632a8;
+  //     background-color: #ffffff;
+  //     color: #6632a8;
+  //     // box-shadow: 0px 20px 30px -10px #fadadd;
+  //   }
 `
 export const NumberEmail = styled.span`
   font-family: 'Poppins';
